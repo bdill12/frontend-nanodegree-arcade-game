@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+      /***  CSS Gradient  ***/
+  /*  Chrome 1-9 and Safari 4-5.0  */
+  background-image: -webkit-gradient(linear, left top, left bottom,
+        color-stop( 0.0, rgb(36, 52, 100) ),
+        color-stop( 0.200, rgb(127, 146, 213) ),
+        color-stop( 0.800, rgb(167, 202, 213) ),
+        color-stop( 1.0, rgb(198, 208, 213) ));
+
+  /*  Chrome 10+ Safari 5.1+ Mobile Safari  */
+  background-image: -webkit-linear-gradient(top,
+        rgb(36, 52, 100), 
+        rgb(127, 146, 213) 20.0%,
+        rgb(167, 202, 213) 80.0%,
+        rgb(198, 208, 213) );
+
+  /*  Firefox 3.6+  */
+  background-image: -moz-linear-gradient(top,
+        rgb(36, 52, 100), 
+        rgb(127, 146, 213) 20.0%,
+        rgb(167, 202, 213) 80.0%,
+        rgb(198, 208, 213) );
+
+  /*  IE 10+  */
+  background-image: -ms-linear-gradient(top,
+        rgb(36, 52, 100), 
+        rgb(127, 146, 213) 20.0%,
+        rgb(167, 202, 213) 80.0%,
+        rgb(198, 208, 213) );
+
+  /*  Opera 11.10+  */
+  background-image: -o-linear-gradient(top,
+        rgb(36, 52, 100), 
+        rgb(127, 146, 213) 20.0%,
+        rgb(167, 202, 213) 80.0%,
+        rgb(198, 208, 213) );
+
+  /*  W3C  */
+  background-image: linear-gradient(top,
+        rgb(36, 52, 100), 
+        rgb(127, 146, 213) 20.0%,
+        rgb(167, 202, 213) 80.0%,
+        rgb(198, 208, 213) );
+}
+
+h1 {
+	font-size: 3em;
+	color: #fff;
+}
+
+.instructions {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.scoreboard {
+	display: flex;
+	height: 2.5em;
+}
+
+.score {
+	font-size: 2em;
+	color: #fff;
+	border: 2px solid #fff;
+	width: 30%;
+	margin: auto;
+}
